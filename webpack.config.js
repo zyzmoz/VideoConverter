@@ -20,8 +20,9 @@ module.exports = {
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: './src/bundle.js'
   },
+  watch: true,
   module: {
     loaders: [
       {

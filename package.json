@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "build": "webpack",
     "electron": "electron ."
   },
   "author": "Rallycoding",
